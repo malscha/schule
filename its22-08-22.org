@@ -12,5 +12,36 @@
 + DVD Drive            ASUS DRW-24D5MT                       15€
 + lan cable 10m        Sharkoon                              7€
 + Mouse + Keyboard     Trust Taro                            15€
++ OS
++ Office               Libre Office                          0€
++ Power strip                                                6€
   -------------------------------------------------------------------
-+ *Gesamt*                                                  *594€*
++ *Gesamt*                                                  *600€*
+
+
+* Erläuterung:
+** Gehäuse
+2 Lüfter um auch bei hohen Temperaturen kühlung zu gewähren
+** Mainboard
+günstiges gerät von qualitativ gutem Hersteller für möglichst lange Lebensdauer
+** Memory
+16gb sind mindestens für Eplan empfohlen
+** CPU
+möglichst viel Leistung zu günstigem Preis
+** SSD
+Speicher ist für professionelle Anwendung ziemlich klein, 500gb für 20€ mehr vermutlich eine gute Idee
+** Video Card
+Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.
+** Power Suply
+sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
+** DVD, Kabel, Maus, Tastatur
+das billigste vim Billigen, sollte aber ausreichen.
+** Office
+Microsoft Office alleine kostet über 200€ und ist daher beim 600€ Budget raus.
+** OS
+Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
+
+
+
+* Sonstiges
+Eplan kostet Tausende € für eine Lizens bzw. 125€/Benutzer im Monat. Ich glaube da würde es sich lohnen ein paar € mehr für den Arbeitsplatz in die Hand zu nehmen.
