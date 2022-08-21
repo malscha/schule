@@ -12,7 +12,7 @@
 | DVD Drive         | ASUS DRW-24D5MT           | 15€  |
 | lan cable 10m     | Sharkoon                  | 7€   |
 | Mouse + Keyboard  | Trust Taro                | 15€  |
-| OS                | Kubuntu? Oo               |      |
+| OS                | Kubuntu? Oo               | 0€   |
 | Office            | Libre Office              | 0€   |
 | Power strip       |                           | 5€   |
 |-------------------+---------------------------+------|
