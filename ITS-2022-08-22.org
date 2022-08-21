@@ -2,21 +2,21 @@
 
 * bis 600€
 
-+ Case Min 2 Lüfter    Antec VSK3000B Midi Tower             37€
-+ Mainboard:           MSI B450-A Pro MAX AMD                60€
-+ Memory 16GBs+ :      Corsair                               60€
-+ CPU:                 AMD RYZEN 5600G                       160€
-+ SSD:                 GIGABYTE NVMe SSD 256 GB              30€
-+ Video Card:          MSI GTX1630 Ventus                    180€
-+ Power supply:        500 Watt LC-Power LC500H              30€
-+ DVD Drive            ASUS DRW-24D5MT                       15€
-+ lan cable 10m        Sharkoon                              7€
-+ Mouse + Keyboard     Trust Taro                            15€
-+ OS                   Kubuntu? Oo
-+ Office               Libre Office                          0€
-+ Power strip                                                5€
-  -------------------------------------------------------------------
-+ *Gesamt*                                                  *599€*
+| Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€  |
+| Mainboard:        | MSI B450-A Pro MAX AMD    | 60€  |
+| Memory 16GBs+ :   | Corsair                   | 60€  |
+| CPU:              | AMD RYZEN 5600G           | 160€ |
+| SSD:              | GIGABYTE NVMe SSD 256 GB  | 30€  |
+| Video Card:       | MSI GTX1630 Ventus        | 180€ |
+| Power supply:     | 500 Watt LC-Power LC500H  | 30€  |
+| DVD Drive         | ASUS DRW-24D5MT           | 15€  |
+| lan cable 10m     | Sharkoon                  | 7€   |
+| Mouse + Keyboard  | Trust Taro                | 15€  |
+| OS                | Kubuntu? Oo               |      |
+| Office            | Libre Office              | 0€   |
+| Power strip       |                           | 5€   |
+|-------------------+---------------------------+------|
+| Gesamt            |                           | 599€ |
 
 
 * Erläuterung:
@@ -37,7 +37,7 @@ sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
 ** DVD, Kabel, Maus, Tastatur
 das billigste vim Billigen, sollte aber ausreichen.
 ** Office
-Microsoft Office alleine kostet über 200€ und ist daher beim 600€ Budget raus.
+Microsoft Office alleine kostet ca. 200€ und ist daher beim 600€ Budget raus.
 ** OS
 Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
 Anscheinend ist es möflich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
