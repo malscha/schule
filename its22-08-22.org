@@ -12,11 +12,11 @@
 + DVD Drive            ASUS DRW-24D5MT                       15€
 + lan cable 10m        Sharkoon                              7€
 + Mouse + Keyboard     Trust Taro                            15€
-+ OS
++ OS                   Kubuntu? Oo
 + Office               Libre Office                          0€
-+ Power strip                                                6€
++ Power strip                                                5€
   -------------------------------------------------------------------
-+ *Gesamt*                                                  *600€*
++ *Gesamt*                                                  *599€*
 
 
 * Erläuterung:
@@ -40,8 +40,9 @@ das billigste vim Billigen, sollte aber ausreichen.
 Microsoft Office alleine kostet über 200€ und ist daher beim 600€ Budget raus.
 ** OS
 Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
-
-
+Anscheinend ist es möflich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
 
 * Sonstiges
-Eplan kostet Tausende € für eine Lizens bzw. 125€/Benutzer im Monat. Ich glaube da würde es sich lohnen ein paar € mehr für den Arbeitsplatz in die Hand zu nehmen.
+- Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.
+- Ein Mac System ist bei dem Preisrahmen nicht drin. Eplan läuft außerdem auch nur mit Hilfe einer Virtuellen Maschine.
+- Eplan kostet Tausende € für eine Lizens bzw. 125€/Benutzer im Monat. Ich glaube da würde es sich lohnen ein paar € mehr für den Arbeitsplatz in die Hand zu nehmen.
