@@ -14,7 +14,7 @@
 | Mouse + Keyboard  | Trust Taro                | 15€  |
 | OS                | Kubuntu? Oo               | 0€   |
 | Office            | Libre Office              | 0€   |
-| Power strip       |                           | 5€   |
+| Power strip       | cheap                     | 5€   |
 |-------------------+---------------------------+------|
 | Gesamt            |                           | 599€ |
 
