@@ -1,0 +1,16 @@
+#+title: Its22 08 22
+
+* bis 600€
+
++ Case Min 2 Lüfter    be quiet! PURE BASE 500               75€
++ Mainboard:           ASRock H610M-HDV                      90€
++ Memory 16GBs+ :      Corsair                               60€
++ CPU:                 i5-11400F                             160€
++ SSD:                 GIGABYTE NVMe SSD 256 GB              30€
++ Video Card:          MSI GTX1630 Ventus                    180€
++ Power supply:        bequiet! System Power9 400w           40€
++ DVD Drive            ASUS DRW-24D5MT                       15€
++ lan cable 10m        Sharkoon                              7€
++ Mouse + Keyboard     Trust Taro                            15€
+  -------------------------------------------------------------------
++ *Gesamt*                                                  *672€*
