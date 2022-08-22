@@ -5,9 +5,9 @@
 | Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€   |
 | Mainboard:        | MSI B450-A Pro MAX AMD    | 60€   |
 | Memory 16GBs+ :   | Corsair                   | 60€   |
-| CPU:              | AMD RYZEN 4 5600G         | 160€  |
+| CPU:              | AMD RYZEN 5 5600G         | 160€  |
 | SSD:              | GIGABYTE NVMe SSD 256 GB  | 30€   |
-| Video Card:       | MSI GTX1630 Ventus        | 180€  |
+| Video Card:       | MSI GTX1630 Ventus 4GB    | 180€  |
 | Power supply:     | 500 Watt LC-Power LC500H  | 30€   |
 | DVD Drive         | ASUS DRW-24D5MT           | 15€   |
 | lan cable 10m     | Sharkoon                  | 7€    |
@@ -28,26 +28,28 @@
 
 * Erläuterung:
 ** Gehäuse
-2 Lüfter um auch bei hohen Temperaturen kühlung zu gewährleisten
+- 2 Lüfter um auch bei hohen Temperaturen kühlung zu gewährleisten
 ** Mainboard
-günstiges Gerät von gutem Hersteller für möglichst lange Lebensdauer
+- günstiges Gerät von gutem Hersteller für möglichst lange Lebensdauer
 ** Memory
-16gb sind mindestens für Eplan empfohlen
+- 16gb sind mindestens für Eplan empfohlen
 ** CPU
-möglichst viel Leistung zu günstigem Preis
+- möglichst viel Leistung zu günstigem Preis
+- laut Eplan Anforderungen ist Taktrate wichtiger als Kernanzahl
+- günstige Alternative ca 25% weniger Leistung und 4.5 ghz max gegen 3.4 ghz max
 ** SSD
-Speicher ist für professionelle Anwendung ziemlich klein, 500gb für 20€ mehr vermutlich eine gute Idee
+- Speicher ist für professionelle Anwendung ziemlich klein, 500gb für 20€ mehr vermutlich eine gute Idee
 ** Video Card
-Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.
+- Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.
 ** Power Suply
-sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
+- sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
 ** DVD, Kabel, Maus, Tastatur
-das billigste vim Billigen, sollte aber ausreichen.
+- das billigste vim Billigen, sollte aber ausreichen.
 ** Office
-Microsoft Office alleine kostet ca. 200€ und ist daher beim 600€ Budget raus.
+- Microsoft Office alleine kostet ca. 200€ und ist daher beim 600€ Budget raus.
 ** OS
-Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
-Anscheinend ist es möflich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
+- Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
+- Anscheinend ist es möglich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
 
 * Sonstiges
 - Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.
