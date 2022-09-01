@@ -1,40 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-09-01 Thu 11:41 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ITS 2022-08-22</title>
+<meta name="author" content="John Doe" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">ITS 2022-08-22</h1>
 <div id="table-of-contents" role="doc-toc">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#orgda5b101">1. Anforderungen</a>
+<li><a href="#orgb56d191">1. Anforderungen</a>
 <ul>
-<li><a href="#org6b1ee5f">1.1. Gesamt</a></li>
-<li><a href="#orge3cfef3">1.2. Verwendete software</a></li>
-<li><a href="#orgf70d88a">1.3. Bereits vorhanden</a></li>
+<li><a href="#org726adca">1.1. Gesamt</a></li>
+<li><a href="#org898ff79">1.2. Verwendete software</a></li>
+<li><a href="#org59f5eaa">1.3. Bereits vorhanden</a></li>
 </ul>
 </li>
-<li><a href="#org7a675fc">2. Budget</a></li>
-<li><a href="#org93f6b0b">3. Zusammenstellung bis 600€</a></li>
-<li><a href="#org92bc9c1">4. Erläuterung:</a>
+<li><a href="#org82a0809">2. Budget</a></li>
+<li><a href="#org9a2dea4">3. Zusammenstellung bis 1000€</a></li>
+<li><a href="#orgfc0e840">4. Erläuterung:</a>
 <ul>
-<li><a href="#org2b47526">4.1. Gehäuse</a></li>
-<li><a href="#org5a1f21a">4.2. Mainboard</a></li>
-<li><a href="#org94a3795">4.3. Memory</a></li>
-<li><a href="#orgd791f19">4.4. CPU</a></li>
-<li><a href="#org4cc9fea">4.5. SSD</a></li>
-<li><a href="#org58d3f7f">4.6. Video Card</a></li>
-<li><a href="#orgecf9275">4.7. Power Suply</a></li>
-<li><a href="#org3cb4915">4.8. DVD, Kabel, Maus, Tastatur</a></li>
-<li><a href="#org9b91892">4.9. Office</a></li>
-<li><a href="#org937bd50">4.10. OS</a></li>
+<li><a href="#orgb370a3f">4.1. Gehäuse</a></li>
+<li><a href="#orgcc853f1">4.2. Mainboard</a></li>
+<li><a href="#org32a5c91">4.3. Memory</a></li>
+<li><a href="#org7bb56d1">4.4. CPU</a></li>
+<li><a href="#org2eef33d">4.5. SSD</a></li>
+<li><a href="#org6e28315">4.6. Video Card</a></li>
+<li><a href="#org6288b4b">4.7. Power Suply</a></li>
+<li><a href="#org8966936">4.8. DVD, Kabel, Maus, Tastatur</a></li>
+<li><a href="#org3a06404">4.9. Office</a></li>
+<li><a href="#orga6a76dc">4.10. OS</a></li>
+<li><a href="#org2ccfef5">4.11. Sonstiges</a></li>
 </ul>
 </li>
-<li><a href="#orgc82cbee">5. Sonstiges</a></li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgda5b101" class="outline-2">
-<h2 id="orgda5b101"><span class="section-number-2">1.</span> Anforderungen</h2>
+<div id="outline-container-orgb56d191" class="outline-2">
+<h2 id="orgb56d191"><span class="section-number-2">1.</span> Anforderungen</h2>
 <div class="outline-text-2" id="text-1">
 </div>
-<div id="outline-container-org6b1ee5f" class="outline-3">
-<h3 id="org6b1ee5f"><span class="section-number-3">1.1.</span> Gesamt</h3>
+<div id="outline-container-org726adca" class="outline-3">
+<h3 id="org726adca"><span class="section-number-3">1.1.</span> Gesamt</h3>
 <div class="outline-text-3" id="text-1-1">
 <ul class="org-ul">
 <li>PC Arbeitsplatz</li>
@@ -45,8 +244,8 @@
 </div>
 </div>
 
-<div id="outline-container-orge3cfef3" class="outline-3">
-<h3 id="orge3cfef3"><span class="section-number-3">1.2.</span> Verwendete software</h3>
+<div id="outline-container-org898ff79" class="outline-3">
+<h3 id="org898ff79"><span class="section-number-3">1.2.</span> Verwendete software</h3>
 <div class="outline-text-3" id="text-1-2">
 <ul class="org-ul">
 <li>Eplan</li>
@@ -56,8 +255,8 @@
 </div>
 </div>
 
-<div id="outline-container-orgf70d88a" class="outline-3">
-<h3 id="orgf70d88a"><span class="section-number-3">1.3.</span> Bereits vorhanden</h3>
+<div id="outline-container-org59f5eaa" class="outline-3">
+<h3 id="org59f5eaa"><span class="section-number-3">1.3.</span> Bereits vorhanden</h3>
 <div class="outline-text-3" id="text-1-3">
 <ul class="org-ul">
 <li>Drucker</li>
@@ -77,16 +276,16 @@
 
 
 
-<div id="outline-container-org7a675fc" class="outline-2">
-<h2 id="org7a675fc"><span class="section-number-2">2.</span> Budget</h2>
+<div id="outline-container-org82a0809" class="outline-2">
+<h2 id="org82a0809"><span class="section-number-2">2.</span> Budget</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Bis Maximal 1000€
 </p>
 </div>
 </div>
-<div id="outline-container-org93f6b0b" class="outline-2">
-<h2 id="org93f6b0b"><span class="section-number-2">3.</span> Zusammenstellung bis 600€</h2>
+<div id="outline-container-org9a2dea4" class="outline-2">
+<h2 id="org9a2dea4"><span class="section-number-2">3.</span> Zusammenstellung bis 1000€</h2>
 <div class="outline-text-2" id="text-3">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
@@ -98,95 +297,126 @@ Bis Maximal 1000€
 
 <col  class="org-left" />
 </colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Case Min 2 Lüfter</th>
+<th scope="col" class="org-left">Antec VSK3000B Midi Tower</th>
+<th scope="col" class="org-left">37€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Mainboard:</th>
+<th scope="col" class="org-left">MSI B450-A Pro MAX AMD</th>
+<th scope="col" class="org-left">60€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Memory 16GBs+ :</th>
+<th scope="col" class="org-left">Corsair</th>
+<th scope="col" class="org-left">60€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">CPU:</th>
+<th scope="col" class="org-left">AMD RYZEN 5 5600G</th>
+<th scope="col" class="org-left">160€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">SSD:</th>
+<th scope="col" class="org-left">GIGABYTE NVMe SSD 256 GB</th>
+<th scope="col" class="org-left">30€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Video Card:</th>
+<th scope="col" class="org-left">MSI GTX1630 Ventus 4GB</th>
+<th scope="col" class="org-left">180€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Power supply:</th>
+<th scope="col" class="org-left">500 Watt LC-Power LC500H</th>
+<th scope="col" class="org-left">30€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">DVD Drive</th>
+<th scope="col" class="org-left">ASUS DRW-24D5MT</th>
+<th scope="col" class="org-left">15€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">lan cable 10m</th>
+<th scope="col" class="org-left">Sharkoon</th>
+<th scope="col" class="org-left">7€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Mouse + Keyboard</th>
+<th scope="col" class="org-left">Trust Taro</th>
+<th scope="col" class="org-left">15€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">OS</th>
+<th scope="col" class="org-left">Windows 10</th>
+<th scope="col" class="org-left">150€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Office</th>
+<th scope="col" class="org-left">Libre Office</th>
+<th scope="col" class="org-left">0€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Power strip</th>
+<th scope="col" class="org-left">cheap</th>
+<th scope="col" class="org-left">5€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">HDD</th>
+<th scope="col" class="org-left">2Tb Baracudo</th>
+<th scope="col" class="org-left">55€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">Gesamt Hardware</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">804€</th>
+</tr>
+
+<tr>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
 <tbody>
 <tr>
-<td class="org-left">Case Min 2 Lüfter</td>
-<td class="org-left">Antec VSK3000B Midi Tower</td>
-<td class="org-left">37€</td>
-</tr>
-
-<tr>
-<td class="org-left">Mainboard:</td>
-<td class="org-left">MSI B450-A Pro MAX AMD</td>
-<td class="org-left">60€</td>
-</tr>
-
-<tr>
-<td class="org-left">Memory 16GBs+ :</td>
-<td class="org-left">Corsair</td>
-<td class="org-left">60€</td>
-</tr>
-
-<tr>
-<td class="org-left">CPU:</td>
-<td class="org-left">AMD RYZEN 5 5600G</td>
-<td class="org-left">160€</td>
-</tr>
-
-<tr>
-<td class="org-left">SSD:</td>
-<td class="org-left">GIGABYTE NVMe SSD 256 GB</td>
-<td class="org-left">30€</td>
-</tr>
-
-<tr>
-<td class="org-left">Video Card:</td>
-<td class="org-left">MSI GTX1630 Ventus 4GB</td>
-<td class="org-left">180€</td>
-</tr>
-
-<tr>
-<td class="org-left">Power supply:</td>
-<td class="org-left">500 Watt LC-Power LC500H</td>
-<td class="org-left">30€</td>
-</tr>
-
-<tr>
-<td class="org-left">DVD Drive</td>
-<td class="org-left">ASUS DRW-24D5MT</td>
-<td class="org-left">15€</td>
-</tr>
-
-<tr>
-<td class="org-left">lan cable 10m</td>
-<td class="org-left">Sharkoon</td>
-<td class="org-left">7€</td>
-</tr>
-
-<tr>
-<td class="org-left">Mouse + Keyboard</td>
-<td class="org-left">Trust Taro</td>
-<td class="org-left">15€</td>
-</tr>
-
-<tr>
-<td class="org-left">OS</td>
-<td class="org-left">Windows 10</td>
-<td class="org-left">150€</td>
-</tr>
-
-<tr>
-<td class="org-left">Office</td>
-<td class="org-left">Libre Office</td>
-<td class="org-left">0€</td>
-</tr>
-
-<tr>
-<td class="org-left">Power strip</td>
-<td class="org-left">cheap</td>
-<td class="org-left">5€</td>
-</tr>
-
-<tr>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">&#xa0;</td>
-</tr>
-
-<tr>
-<td class="org-left">Gesamt</td>
-<td class="org-left">&#xa0;</td>
-<td class="org-left">749€</td>
+<td class="org-left">Lohnkosten</td>
+<td class="org-left">2,5h</td>
+<td class="org-left">100€</td>
 </tr>
 
 <tr>
@@ -195,41 +425,48 @@ Bis Maximal 1000€
 <td class="org-left">&#xa0;</td>
 </tr>
 </tbody>
+<tbody>
+<tr>
+<td class="org-left">Gesamt</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">904€</td>
+</tr>
+</tbody>
 </table>
 </div>
 </div>
 
 
-<div id="outline-container-org92bc9c1" class="outline-2">
-<h2 id="org92bc9c1"><span class="section-number-2">4.</span> Erläuterung:</h2>
+<div id="outline-container-orgfc0e840" class="outline-2">
+<h2 id="orgfc0e840"><span class="section-number-2">4.</span> Erläuterung:</h2>
 <div class="outline-text-2" id="text-4">
 </div>
-<div id="outline-container-org2b47526" class="outline-3">
-<h3 id="org2b47526"><span class="section-number-3">4.1.</span> Gehäuse</h3>
+<div id="outline-container-orgb370a3f" class="outline-3">
+<h3 id="orgb370a3f"><span class="section-number-3">4.1.</span> Gehäuse</h3>
 <div class="outline-text-3" id="text-4-1">
 <ul class="org-ul">
 <li>2 Lüfter um auch bei hohen Temperaturen kühlung zu gewährleisten</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org5a1f21a" class="outline-3">
-<h3 id="org5a1f21a"><span class="section-number-3">4.2.</span> Mainboard</h3>
+<div id="outline-container-orgcc853f1" class="outline-3">
+<h3 id="orgcc853f1"><span class="section-number-3">4.2.</span> Mainboard</h3>
 <div class="outline-text-3" id="text-4-2">
 <ul class="org-ul">
 <li>günstiges Gerät von gutem Hersteller für möglichst lange Lebensdauer</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org94a3795" class="outline-3">
-<h3 id="org94a3795"><span class="section-number-3">4.3.</span> Memory</h3>
+<div id="outline-container-org32a5c91" class="outline-3">
+<h3 id="org32a5c91"><span class="section-number-3">4.3.</span> Memory</h3>
 <div class="outline-text-3" id="text-4-3">
 <ul class="org-ul">
 <li>16gb sind mindestens für Eplan empfohlen</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgd791f19" class="outline-3">
-<h3 id="orgd791f19"><span class="section-number-3">4.4.</span> CPU</h3>
+<div id="outline-container-org7bb56d1" class="outline-3">
+<h3 id="org7bb56d1"><span class="section-number-3">4.4.</span> CPU</h3>
 <div class="outline-text-3" id="text-4-4">
 <ul class="org-ul">
 <li>möglichst viel Leistung zu günstigem Preis</li>
@@ -238,48 +475,48 @@ Bis Maximal 1000€
 </ul>
 </div>
 </div>
-<div id="outline-container-org4cc9fea" class="outline-3">
-<h3 id="org4cc9fea"><span class="section-number-3">4.5.</span> SSD</h3>
+<div id="outline-container-org2eef33d" class="outline-3">
+<h3 id="org2eef33d"><span class="section-number-3">4.5.</span> SSD</h3>
 <div class="outline-text-3" id="text-4-5">
 <ul class="org-ul">
 <li>Speicher ist für professionelle Anwendung ziemlich klein, 500gb für 20€ mehr vermutlich eine gute Idee</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org58d3f7f" class="outline-3">
-<h3 id="org58d3f7f"><span class="section-number-3">4.6.</span> Video Card</h3>
+<div id="outline-container-org6e28315" class="outline-3">
+<h3 id="org6e28315"><span class="section-number-3">4.6.</span> Video Card</h3>
 <div class="outline-text-3" id="text-4-6">
 <ul class="org-ul">
 <li>Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgecf9275" class="outline-3">
-<h3 id="orgecf9275"><span class="section-number-3">4.7.</span> Power Suply</h3>
+<div id="outline-container-org6288b4b" class="outline-3">
+<h3 id="org6288b4b"><span class="section-number-3">4.7.</span> Power Suply</h3>
 <div class="outline-text-3" id="text-4-7">
 <ul class="org-ul">
 <li>sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org3cb4915" class="outline-3">
-<h3 id="org3cb4915"><span class="section-number-3">4.8.</span> DVD, Kabel, Maus, Tastatur</h3>
+<div id="outline-container-org8966936" class="outline-3">
+<h3 id="org8966936"><span class="section-number-3">4.8.</span> DVD, Kabel, Maus, Tastatur</h3>
 <div class="outline-text-3" id="text-4-8">
 <ul class="org-ul">
 <li>das billigste vom Billigen, sollte aber ausreichen.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org9b91892" class="outline-3">
-<h3 id="org9b91892"><span class="section-number-3">4.9.</span> Office</h3>
+<div id="outline-container-org3a06404" class="outline-3">
+<h3 id="org3a06404"><span class="section-number-3">4.9.</span> Office</h3>
 <div class="outline-text-3" id="text-4-9">
 <ul class="org-ul">
 <li>Microsoft Office alleine kostet ca. 200€ und ist daher beim 600€ Budget raus.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org937bd50" class="outline-3">
-<h3 id="org937bd50"><span class="section-number-3">4.10.</span> OS</h3>
+<div id="outline-container-orga6a76dc" class="outline-3">
+<h3 id="orga6a76dc"><span class="section-number-3">4.10.</span> OS</h3>
 <div class="outline-text-3" id="text-4-10">
 <ul class="org-ul">
 <li>Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.</li>
@@ -287,11 +524,10 @@ Bis Maximal 1000€
 </ul>
 </div>
 </div>
-</div>
 
-<div id="outline-container-orgc82cbee" class="outline-2">
-<h2 id="orgc82cbee"><span class="section-number-2">5.</span> Sonstiges</h2>
-<div class="outline-text-2" id="text-5">
+<div id="outline-container-org2ccfef5" class="outline-3">
+<h3 id="org2ccfef5"><span class="section-number-3">4.11.</span> Sonstiges</h3>
+<div class="outline-text-3" id="text-4-11">
 <ul class="org-ul">
 <li>Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.</li>
 <li>Ein Mac System ist bei dem Preisrahmen nicht drin. Eplan läuft außerdem auch nur mit Hilfe einer Virtuellen Maschine.</li>
@@ -299,3 +535,11 @@ Bis Maximal 1000€
 </ul>
 </div>
 </div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: John Doe</p>
+<p class="date">Created: 2022-09-01 Thu 11:41</p>
+</div>
+</body>
+</html>

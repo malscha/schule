@@ -27,25 +27,32 @@
 
 * Budget
 Bis Maximal 1000€
-* Zusammenstellung bis 600€
+* Zusammenstellung bis 1000€
 
-| Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€   |
-| Mainboard:        | MSI B450-A Pro MAX AMD    | 60€   |
-| Memory 16GBs+ :   | Corsair                   | 60€   |
-| CPU:              | AMD RYZEN 5 5600G         | 160€  |
-| SSD:              | GIGABYTE NVMe SSD 256 GB  | 30€   |
-| Video Card:       | MSI GTX1630 Ventus 4GB    | 180€  |
-| Power supply:     | 500 Watt LC-Power LC500H  | 30€   |
-| DVD Drive         | ASUS DRW-24D5MT           | 15€   |
-| lan cable 10m     | Sharkoon                  | 7€    |
-| Mouse + Keyboard  | Trust Taro                | 15€   |
-| OS                | Windows 10                | 150€  |
-| Office            | Libre Office              | 0€    |
-| Power strip       | cheap                     | 5€    |
-|                   |                           |       |
-| Gesamt            |                           | 749€  |
-|                   |                           |       |
-|-------------------+---------------------------+-------|
+| Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€  |
+| Mainboard:        | MSI B450-A Pro MAX AMD    | 60€  |
+| Memory 16GBs+ :   | Corsair                   | 60€  |
+| CPU:              | AMD RYZEN 5 5600G         | 160€ |
+| SSD:              | GIGABYTE NVMe SSD 256 GB  | 30€  |
+| Video Card:       | MSI GTX1630 Ventus 4GB    | 180€ |
+| Power supply:     | 500 Watt LC-Power LC500H  | 30€  |
+| DVD Drive         | ASUS DRW-24D5MT           | 15€  |
+| lan cable 10m     | Sharkoon                  | 7€   |
+| Mouse + Keyboard  | Trust Taro                | 15€  |
+| OS                | Windows 10                | 150€ |
+| Office            | Libre Office              | 0€   |
+| Power strip       | cheap                     | 5€   |
+| HDD               | 2Tb Baracudo              | 55€  |
+|                   |                           |      |
+|                   |                           |      |
+|                   |                           |      |
+| Gesamt Hardware   |                           | 804€ |
+|                   |                           |      |
+|-------------------+---------------------------+------|
+| Lohnkosten        | 2,5h                      | 100€ |
+|                   |                           |      |
+|-------------------+---------------------------+------|
+| Gesamt            |                           | 904€ |
 
 
 * Erläuterung:
@@ -73,7 +80,7 @@ Bis Maximal 1000€
 - Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
 - Anscheinend ist es möglich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
 
-* Sonstiges
+** Sonstiges
 - Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.
 - Ein Mac System ist bei dem Preisrahmen nicht drin. Eplan läuft außerdem auch nur mit Hilfe einer Virtuellen Maschine.
 - Eplan kostet Tausende € für eine Lizens bzw. 125€/Benutzer im Monat. Ich glaube da würde es sich lohnen ein paar € mehr für den Arbeitsplatz in die Hand zu nehmen.
