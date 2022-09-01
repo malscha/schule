@@ -20,15 +20,10 @@
 
 
 
-
-
-
-
-
 * Budget
 Bis Maximal 1000€
 * Zusammenstellung bis 1000€
-
+|-------------------+---------------------------+------|
 | Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€  |
 | Mainboard:        | MSI B450-A Pro MAX AMD    | 60€  |
 | Memory 16GBs+ :   | Corsair                   | 60€  |
@@ -40,20 +35,14 @@ Bis Maximal 1000€
 | lan cable 10m     | Sharkoon                  | 7€   |
 | Mouse + Keyboard  | Trust Taro                | 15€  |
 | OS                | Windows 10                | 150€ |
-| Office            | Libre Office              | 0€   |
 | Power strip       | cheap                     | 5€   |
 | HDD               | 2Tb Baracudo              | 55€  |
-|                   |                           |      |
-|                   |                           |      |
-|                   |                           |      |
-| Gesamt Hardware   |                           | 804€ |
-|                   |                           |      |
 |-------------------+---------------------------+------|
+| Gesamt Hardware   |                           | 804€ |
 | Lohnkosten        | 2,5h                      | 100€ |
-|                   |                           |      |
 |-------------------+---------------------------+------|
 | Gesamt            |                           | 904€ |
-
+|-------------------+---------------------------+------|
 
 * Erläuterung:
 ** Gehäuse
@@ -72,13 +61,9 @@ Bis Maximal 1000€
 - Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.
 ** Power Suply
 - sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
+
 ** DVD, Kabel, Maus, Tastatur
 - das billigste vom Billigen, sollte aber ausreichen.
-** Office
-- Microsoft Office alleine kostet ca. 200€ und ist daher beim 600€ Budget raus.
-** OS
-- Windows würde auch nochmal ca 150€ Kosten. Und unter Linux läuft Eplan nicht. Wenn diese 150€ auch noch gespart werden sollen wird Eplan wahrscheinlich kaum noch brauchbar laufen.
-- Anscheinend ist es möglich Eplan mit Hilfe von Wine unter Linux zum laufen zu bringen, ist aber wahrscheinlich für professionelle Anwendung nicht stabil und performant genug.
 
 ** Sonstiges
 - Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.
