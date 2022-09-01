@@ -1,10 +1,11 @@
 #+title: ITS 2022-08-22
 * Anforderungen
 ** Gesamt
-- PC Arbeitsplatz
+- PC Arbeitsplatz 3 Benutzer
 - möglichst Energiesparend
 - DVD abspielen und brennen
 - schneller Internetzugang
+- benötigt gute Kühlung
 
 ** Verwendete software
 - Eplan
@@ -35,13 +36,12 @@ Bis Maximal 1000€
 | lan cable 10m     | Sharkoon                  | 7€   |
 | Mouse + Keyboard  | Trust Taro                | 15€  |
 | OS                | Windows 10                | 150€ |
-| Power strip       | cheap                     | 5€   |
 | HDD               | 2Tb Baracudo              | 55€  |
 |-------------------+---------------------------+------|
-| Gesamt Hardware   |                           | 804€ |
+| Gesamt Hardware   |                           | 799€ |
 | Lohnkosten        | 2,5h                      | 100€ |
 |-------------------+---------------------------+------|
-| Gesamt            |                           | 904€ |
+| Gesamt            |                           | 899€ |
 |-------------------+---------------------------+------|
 
 * Erläuterung:
