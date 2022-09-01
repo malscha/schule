@@ -12,18 +12,18 @@
 | DVD Drive         | ASUS DRW-24D5MT           | 15€   |
 | lan cable 10m     | Sharkoon                  | 7€    |
 | Mouse + Keyboard  | Trust Taro                | 15€   |
-| OS                | Kubuntu? Oo               | 0€    |
+| OS                | Windows 10                | 150€  |
 | Office            | Libre Office              | 0€    |
 | Power strip       | cheap                     | 5€    |
 |                   |                           |       |
-| Gesamt            |                           | 599€  |
+| Gesamt            |                           | 749€  |
 |                   |                           |       |
 |-------------------+---------------------------+-------|
 |                   |                           |       |
 | Alternative Video | MSI Geforce GT730  2GB    | -110€ |
 | Alternative CPU   | Ryzen 5 4500              | -60€  |
 |                   |                           |       |
-| Gesamt            |                           | 429€  |
+| Gesamt            |                           | 579€  |
 
 
 * Erläuterung:
