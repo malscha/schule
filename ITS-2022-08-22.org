@@ -1,5 +1,32 @@
 #+title: ITS 2022-08-22
+* Anforderungen
+** Gesamt
+- PC Arbeitsplatz
+- möglichst Energiesparend
+- DVD abspielen und brennen
+- schneller Internetzugang
 
+** Verwendete software
+- Eplan
+- TIA Protokol
+- Office 365
+
+** Bereits vorhanden
+- Drucker
+- Plotter
+- Monitor
+- Internetanschluss
+
+
+
+
+
+
+
+
+
+* Budget
+Bis Maximal 1000€
 * Zusammenstellung bis 600€
 
 | Case Min 2 Lüfter | Antec VSK3000B Midi Tower | 37€   |
@@ -19,11 +46,6 @@
 | Gesamt            |                           | 749€  |
 |                   |                           |       |
 |-------------------+---------------------------+-------|
-|                   |                           |       |
-| Alternative Video | MSI Geforce GT730  2GB    | -110€ |
-| Alternative CPU   | Ryzen 5 4500              | -60€  |
-|                   |                           |       |
-| Gesamt            |                           | 579€  |
 
 
 * Erläuterung:
