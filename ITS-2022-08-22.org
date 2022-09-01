@@ -55,17 +55,10 @@ Bis Maximal 1000€
 - möglichst viel Leistung zu günstigem Preis
 - laut Eplan Anforderungen ist Taktrate wichtiger als Kernanzahl
 - günstige Alternative ca 25% weniger Leistung und 4.5 ghz max gegen 3.4 ghz max
-** SSD
-- Speicher ist für professionelle Anwendung ziemlich klein, 500gb für 20€ mehr vermutlich eine gute Idee
 ** Video Card
 - Eplan empfielt eine 4gb Karte mit Leistung grob jenseits der gtx760. Hier gibt es nur wenige verfügbare Modelle. Aktuelle Preise sind immer noch übertrieben.
 ** Power Suply
-- sehr günstiges 500W Netzteil, würde gerne ein etwas hochwertigeres verbauen
+- sehr günstiges 500W Netzteil
 
 ** DVD, Kabel, Maus, Tastatur
-- das billigste vom Billigen, sollte aber ausreichen.
-
-** Sonstiges
-- Energiesparend und vor allem Leise sind ein Luxus den man sich bei dem Preis nicht leisten kann.
-- Ein Mac System ist bei dem Preisrahmen nicht drin. Eplan läuft außerdem auch nur mit Hilfe einer Virtuellen Maschine.
-- Eplan kostet Tausende € für eine Lizens bzw. 125€/Benutzer im Monat. Ich glaube da würde es sich lohnen ein paar € mehr für den Arbeitsplatz in die Hand zu nehmen.
+- gut und günstig
