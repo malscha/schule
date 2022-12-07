@@ -1,0 +1,61 @@
+#+title: Klausur 11 22
+
+* Duale Ausbildung
+- Ausbildung besteht aus dem Betrieblichen und dem Berufsschulischen Teil. Zusätzlich können auch weitere Ausßerbetriebliche Veranstaltungen dazu gehören.
+- Endet mit der Vollendeten Abschlussprüfung
+- Ausbildungsverhältnis endet mit abschluss der Abschlussprüfung, bei nicht bestehen verlängert sich die Ausbildungsdauer zum nächsten Nachholtermin, maximal ein Jahr
+* Rechte und Pflichten
+ + Pflichten:
+   1. Sorgfaltspflicht: Die Aufgaben die ihm aufgetragen werden sorgfältig ausführen.
+   2. Teilnahme an Ausbildungsmaßnahmen
+      - Berufsschule
+      - Prüfungen, Abschlussprüfung
+   3. Weisungen folgen, die von Ausbildern und Vorgesetzten gegeben werden
+   4. Die Ordnung der Ausbildungsstelle achten
+   5. Pfleglich mit Werkzeugen und sämtlichen Ausbildungs und Arbeitsmitteln umgehen
+   6. Stillschweigen über Betriebs- und Geschäftsgeheimnisse
+   7. den Ausbildungsnachweis führen
+
+ + Rechte
+   1. berufliche Handlungsfähigkeit vermitteln, damit das Ausbildungsziel in der vorgesehenen Zeit erreichte werden kann.
+   2. selbst ausbilden oder einen Ausbilder ausdrücklich beauftragen
+   3. Ausbildungsmittel, Werkzeuge, Werkstoffe, Fachliteratur zur Verfügung stellen
+   4. Azubi zum Besuchen der Berufsschule anhalten
+   5. der Azubi soll charakterlich grfördert und weder sittlich noch körperlich gefährdet werden
+   6. Ausbildungsnachweis prüfen
+   7. Nur aufgeben übertragen, die dem Ausbildungszweck dienen und die körperlichen Kräfte nicht übersteigen.
+* JArbSchG
+- Als Jugendlicher zählen Personen die über 15 und unter 18 Jahre alt sind. Unter 15 gilt man als Kind. Auch über 15 Jährige die von der Schulpflicht betroffen sind gelten als Kind.
+** Arbeitszeit:
+- max 5 Tage in der Woche
+- nicht länger als 8 Stunden
+- nicht mehr als 40 Stunden/Woche
+- Schulzeit, und Die Prüfungen gelten als Arbeitszeit
+- Arbeit zwichen 6 und 20 Uhr
+- Zwölf Stunden ruhe zwischen den Schichten
+** Pausen
+- bis zu 6 Stunden mindestens 30 Minuten
+- über 6 Stunden 60 Minuten Pause
+- Pause nicht 1 Sunde vor Arbeitsende und 1 Stunde nach Arbeitsanfang
+- mindestens 15 Minuten lang
+- nicht länger als 4,5 Stunden am Stück arbeiten
+** Urlaub
+- bis 16: 30Tage
+- bis 17: 27 Tage
+- bis 18: 25 Tage
+** Berufsschule
+- bei mehr als 5 Schulstunden gilt dies als ganzer Arbeitstag
+** Gesundheit
+- vor Arbeitsbeginn muss Gesundheit ärztlich bescheinigt werden
+- Nach einem Jahr Nachuntersuchung
+
+* Probezeit
+- Mindestens einen und maximal vier Monate lang
+- Während der Probezeit kann das Ausbildungsverhältnis jederzeit ohne Einhalten einer Kündigungsfrist gekündigt werden
+
+* Kündigung
+- Nach der Probezeit kann das Ausbildungsverhältnis nur gekündigt werden, wenn:
+  1. aus einem wichtigen Grund ohne Einhalten einer Kündigungsfrist
+  2. von Azubi mit einer Kündigungsfrist von vier Wochen, wenn sie die Berugsausbildung aufgeben oder sich für einen anderen Brufstätigkeit ausbilden lassen
+- Die kündigung muss schriftlich und unter Angabe von Kündigungsgründen erfolgen (außer in der Probezeit)
+- Bei Kündigung aus wichtigem Grund ist diese Unwirksam wenn die Tatsache mehr als 2 Wochen zurück liegt.

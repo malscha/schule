@@ -1,0 +1,7 @@
+#+title: Oop
+
+Aufgabe 2:
+Objekt: eine Instanz einer Klasse
+Attribut: eine Variable die in einem Obnekt belegt werden kann
+Name:
+Wert: Inhalt eines Attributs

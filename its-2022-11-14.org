@@ -1,0 +1,26 @@
+#+title: Its 2022 11 14
+
+* Rechnungen für die Klausur am 01.12.22
+** CO2 Berechnung
+33 PCs 250W für 5Stunden am Tag für 5 Tage in der Woche bei 40 Wochen / Jahr
+420g CO2 / kWh
+
+*wie viel co2 wird in dem Raum ausgestoßen*
+
+    A: ca. 3465 kg CO2 werden jedes Jahr ausgestoßen
+
+** Leitungsschutzschlater
+Sicherung 16A
+2x Server mit 700W
+6x PC 400W
+
+    Gesamt: 3800W
+
+    Netzspannung: 230V
+
+    3800W / 230V = 16.522A
+
+** Batterie
+40Ah bei 12V => 480Wh
+
+480Wh / 700W = 0,686

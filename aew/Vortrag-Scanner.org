@@ -1,0 +1,5 @@
+#+title: Vortrag Scanner
+* Photodioden:
+- Wandeln Licht in einen Elektrischen Strom um.
+- vom Prinzip die gleichen Bauteile die auch in Solarpanelen und auch Digitalkameras verwendet werden.
+- Wenn das Licht auf die Photodiode trifft entsteht an der Diode ein Strom. Die Stromstärke ist hierbei abhängig von der Intensität des Lichtes

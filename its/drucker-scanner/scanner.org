@@ -1,0 +1,28 @@
+#+title: scanner
+* typen
+** 3d-scanner
+*** Laser basierter Nahscanner
+- trigonometrische triangulation
+- misst position von millionen punkten in 3d Raster
+*** Structured Light scanner
+- projeziert ein Muster auf das Objekt und Bildet das Objekt dann mit mehreren Sensoren ab. Durch die Struktur ist es Möglich ca 1m große Objekte aus der Nähe aufzunehmen. Das verfahren ist schnell (wenige Sekunden) und extrem Präzise (10microns Vergleich ein menschliches Haar ist ca 70microns im Durchmesser)
+*** Laser-Pulse
+- große Reichweite von bis zu 1km
+- Laser sendet millionen Pulse pro sekunde auf das objekt und misst für jedes Objekt den Abstand. Der Abstand wird gemessen indem die Zeit gemessen wird, die das Licht für den Rückweg benötigt.
+*** Laser Phase-Shift
+- Funktion wie bei Lasr Pulse doch durch ausnutzen von Phasenveränderung der Laser Pulse erreicht man eine höhere Genauigkeit, allerdings sinkt die Reichweite auf 300m.
+*** physische "Scanner" Coordinate measuring machine und Armproben
+- eine Physische Probe wird auf das zu Scannende Objekt bewegt und misst dabei extrem genau ihre Position
+** Filmscanner
+- Ein Filmscanner ist ein besonders hochauflösenden Scanner der funktioniert wie ein Flachbettscanner, bei dem sich die Lichtquelle aber hinter dem Objekt befindet. (Wie bei einem Filmprojektor)
+** Barcodescanner
+- klassisch bewegt sich ein Laser in einer bekannten Bahn über das zu scannende Objekt und erkennt durch die Intensität des reflektierten Lichts ob er auf einen schwarzen oder hellen Punkt gerichtet war. Durch eine sehr präzise auflösung kann der scanner die Breite der Dunklen und hellen Streifen berechnen und das entstehende Bild in eine Zahlenfolge umwandeln.
+** Handscanner
+Scanner der von Hand über das Dokument gezogen wird.
+Mobil weniger präzise als Flachbettscanner
+** Flachbettscanner
+Scankopf wird automatisch über das Dokument bewegt. Im Kopf wird das Dokument beleuchtet und das reflektierte Licht wird über Spiegel und Linsen auf eine Photodiode gelenkt. Diese kann dann die Intensität des Lichts dem Punkt auf dem Dokument zuordnen und abspeichern.
+Um Farben abbilden zu können wird das reflektierte Licht durch rot balu und grüne Filter gelenkt bevor es auf die Diode trifft. Dadurch hat man dann die Intensität für die 3 Farbanteile und kann so dem Objektpunkt eine RGB Farbe zuordnen und diese dann abspeichern.
+Dieser Vorgang passiet für eine gesamte Reihe auf einmal und wird hunderte male in der Sekunde wiederholt während der Lesekopf sich über das Dokument bewegt.
+
+* Vortrag:

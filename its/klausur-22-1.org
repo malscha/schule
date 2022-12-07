@@ -1,0 +1,245 @@
+#+title: Klausur 22 1
+
+* Inhalt:
+** E-Technik:
+- P = U*I
+- W = P*t = U * I * t
+- R = U/I
+1. AUfgabe: An einem Steckdosenkreis mit B10 LS (Leitungs Schutzschalter)
+   6x PC-Monitor je 350W
+   1x Server mit 250W
+   kann ich diese Geräte in diesem Stromkreis verwenden.
+
+P_gesamt =     6*350W + 250W = 2350W
+U_netz = 230V
+2350/230 = 10.217
+=> nicht geeignet
+
+
+Nachsehen:      RCD 30mA Fehlstrom
+                FI 40A
+
+1. Serverberechnung (USV Anlagen - Unterbrechungssichere Stromversorgung)
+   Akku mit 44Ah und 12V  = 528Wh
+   Server mit 500W
+
+   Akku (12V 44Ah Gleichstrom) --> Wechselrichter --> Server (230V Wechselstrom)
+
+   für diese Rechnung hat Wechselrichter Wirkungsgrad _my = 1
+2. Übungsaufgaben Akkumulatoren Energieaufgaben_wanders.PDF
+   1. 2200mAh / 900mA = 2.4444 h
+
+   2.
+      a) bei allen 10 Stunden
+            wenn bei Mignonzelle 200mA verwendet werden: 2700mAh / 200 mA = 13.5 h
+      b) 0,27mAh * 8,4V = 2,268Wh
+      c) 10% von 8Ah = 0.8Ah
+         0,8Ah / 0,1A = 8h
+      d) 2.7Ah * 1.2V = 3.24Wh
+   3. P in Notebookakku: 14V * 4.4Ah  = 61.6Wh
+      61.6Wh / 25W = 2.464h
+
+      1. P in Notebookakku: 14 V * 3.8Ah = 53.2Wh
+         53.2 Wh / 32 W = 1.6625h
+
+3. Übungsaufgaben elektrische Leistung und Arbeit
+   1. 350W * 10h = 3500Wh     1 tag
+      3.5kW * 365 = 1277.5 kWh
+
+   2. 1,2kW * 1,5h = 1.8kWh
+
+   3. 60W * 11h = 660Wh /tag
+         660W * 365 = 42.9kWh
+
+   4. 150 * 1kW * 5h = 750kWh
+
+   5. zu 1 : 1277.5 * 0,36€ = 459.9
+      zu 2.: 1.8 * 0,36€ = 0,648€
+      zu 3.: 42.9 * 0,36 = 15.4444
+      zu 4.: 750 * 0,36 = 2700mAh
+   6. 550W *8 = 4400Wh am Tag         =>
+      4400Wh * 365 = 1606kWh im Jahr  => 578,16€
+
+   7. 80+ Gold hat einen Wirkungsgrad von mindestens 87%
+
+      Ausgang: 465W
+      Eingang 65% :   465W/65 * 100 = 715
+      Eingang 87% :   465W/87 * 100 = 534
+
+      Kosten 65%: 715W * 8h * 365 Tage * 0,36€/kWh =  751.61€ / Jahr
+      Kosten 87%: 534W * 8h * 365 Tage * 0,36€/kWh =  561.34€ / Jahr
+
+      Ersparnis: 190,27€/Jahr
+
+4. i
+   Anforderungen:
+   9 Stunden / Tag
+   20 Tage / Monat
+   => 180 Stunden / Monat
+|-------------------------+---------+--------|
+| PC                      | PC-A    | PC-B   |
+| Wirkungsgrad            | 43%     | 76%    |
+| Leistungsaufnahme       | 60W     | 60W    |
+| Von Netzteil Verbraucht | 139,53W | 78,95W |
+| Energiekosten im Monat  | 7,53€   | 4,26€  |
+|-------------------------+---------+--------|
+7,53€ - 4,26€ = 3,27€ / Monat Ersparnis
+
+100€ / 3,27€ = 30,6 Monate also ca 2,5 Jahre
+
+5. Werk AG betreibt 60 Bildschirmarbeitsplätze
+
+   50% Netzteil
+   Ein Arbeitsplatz Leistung: 240W /50 * 100 = 480W
+   im Jahr: 480W *8 Stunden * 5 Tage * 50 Wochen = 960kWh
+   Kosten / Jahr = 960kWh * 0,28€/kWh = 268,8€    für einen Arbeitsplatz
+   => Kosten für 60 Plätze = 16128€
+
+   89% Netzteil
+   Ein Arbeitsplatz Leistung: 240/89 * 100 = 269,66Wh
+   im Jahr: 269,66W * 8 Stunden * 5 Tage * 50 Wochen = 539kWh
+   Kosten / Jahr = 539kWh * 0,28€/kWh = 151,01€
+   => Kosten für 60 Plätze = 9060,67€
+
+   Ersparnis pro Jahr: 7067.33€
+
+   Kosten für 60 neue Netzteile: 115€ * 60 = 6900€
+
+   Investition lohnt sich innerhalb des ersten Jahres.
+
+* Vorträge
+** Vortrag 1 PC-Geräteklassen + Netzteile
+*** Netzteile
+Wandelt Eingangsspannung in verschiedene Ausgangsspannungen um *SPANNUNGEN SUCHEN*
+Typen: Trafo-Netzteil (Veraltet hohe Stromaufnahme), Schlt-Netzteil (modern, kurzschlusssicher), Kondensator-Netzteil (günstige Herstellung geringe Stromstärke)
+*Wirkungsgrade*: Am besten bei ~60% Auslastung, 80+ Netzteile (in verschiedenen Klassen Angaben zun Wirkungsgrad)
+*** Serverklassen
+- Tier 1: keine Redundanz 28 Stunden Ausfall / Jahr
+- Tier 2: N+1 Redundanz  22 Stunden Ausfall / Jahr
+- Tier 3: N+1 Redundanz 1,6 Stunden Ausfall / Jahr
+- Tier 4: Doppelte N+1 Redundanz 26,3 Minuten Ausfall / Jahr
+*** Serverarten
+- Dateiserver
+- Anwendungsserver
+- Webserver
+- Virtuelle Server
+*** IP Schutzklassen
+Erste Ziffer Schutz vor Staub ( 0 - 6 )
+Zweite Ziffer Schutz vor Wasser ( 0 - 9 )
+** Vortrag 2 Mainboards
+*** Komponenten
+- Chipsatz North/SouthBridge (Datentransfer und Steuerung, Energieverwaltung, BIOS)
+- ACPI Advanced Configuration and Power Interface
+** Vortrag 3 CPU
+*** Aufbau vom Prozessor:
+- GPU integrierter Grafikprozessor
+- 1-x Kerne
+  [[[Rechenwerk, Steuerwerk (ALU Arithmetisch Logische Einheit), Register] L1 Cache]L2 Cache]
+
+  + Kommunikationsbus
+    + gemeinsamer L3 Cache
+
+*** Cache
+    L1 Cache: direkt im Kern, 4-256kByte
+    L2 Cache: Im Prozessor, langsamer, 64kByte - 12 MByte
+    L3 Cache: von mehreren Kernen gemeinsam genutzter Speicher, bis zu 256Mbyte
+    L4 Cache (manchmanl) : am langsamsten, auf Mainboard, selten über 128Mbyte
+
+*** Speicherhierarchie
+flüchtiger Speicher:
+    - im Prozessor:
+      + Prozessorregister
+      + Prozessorchache
+    - Geräte
+      + Arbeitsspeicher
+persistenter Speicher:
+    - Geräte
+      + Massenspeicher
+    - Außerhalb des Geräts
+      + Wechseldatenträger
+      + Cloud Speicher
+
+***  Architekturen
+    - RISC Reduced Instruction Set Computer
+    - CISC Complex Instruction Set Computer
+    - x86/x64 CISC
+    - Google ARM RISC
+    - Apple Silicon RISC
+*** Sockel
+- Pin Grid Array PGA (pins auf CPU)
+- Land Grid Array (LGA) (Pins auf Sockel)
+
+** Vortrag 4 RAM
+*** ROM TYPEN (Read onlyl memory)
+- ROM: kann nur ab Werk programmiert werden
+- PROM: Programmable ROM kann vom Anwender programmiert werden
+- EPROM: Erasable-PROM Kann mit UV-Licht wieder gelöscht werden
+- EEPROM: Electrical-Erasable-PROM: kann elektrisch gelöscht werden
+- EAPROM: Electrical alternatable PROM einzelne Speicherzellen können geändert werden
+- Flash-Speicher: Flash-Speicher sind weiter entwickelte EEPROMs (schnelles Lesen und Schreiben), schneller als Festplatten, langsamer als RAM
+
+*** RAM
+Speicherzellen, die jeweils einzeln Adressierbar sind. Speicher ist nicht persistent, geht also bei Stromausfall verloren.
+
+*** DRAM
+Besteht aus einem Condensator und einem Transistor. Bit wird im Condensator gespeichert. Verliert durch Kriechstrom an Ladung und muss regelmäßig neu beschrieben werden. Wird tausende male/ Sekunde refreshed
+*** FPM / EDO / SDRAM    DRAM
+Verbesserungen des DRAM
+
+*** DDR DOUBLE DATA RATE
+Doppelter Takt zum Datentransfer
+
+*** CMOS
+Speicher im Bios, betrieb nmit Batterie
+** Vortrag 5 Bussysteme und Schnittstellen
+- BUS = Binary Unit system
+- Datentransfer innerhalb des Systems
+- Paralleler Datentransfer: Daten werden auf einmal Übertragen (8/16 Leitungen)
+- Serieller Datentransfer: Bit für Bit fast ausschließlich in Gebrauch ( Ausnahme DRAM )
+- PCI Peripheral Component interconnect: parallel für peripheries
+- USB Universal Serial BUS
+- SATA Serial ATA gebrauch mit Festplatten,
+- SCSI SmallComputerSystemInterface Datenbusleitung für jedes Gerät
+- VGA analoges Videosignal
+- DVI kann digitale und analoge Bildsignale übertragen
+- Displayport Bild und Audiodaten Digital,
+- Mini Displayport (gleich aber kleiner)
+- HDMI digital Video und Audio bis 8k
+- PCI express x16 für 16 Lanes, direktverbindung zur CPU
+- Thunderbolt: Kombination aus Displayport und PCIexpress, Blitz auf Anschluss
+** Vortrag 6 Datenspeicher
+- Bandlaufwerk
+- HDD:
+  + Zylinder (Höhe), Sektor (Längengrad), Spur (Breite)
+  + Platte, Spindel, Actuator (Wandelt elektrische Signale in mechanische Bewegung um),
+- Logical Block Addressing (LBA)Betriebssystem sendet LBA-xx statt geometrische Daten
+- SSD cd ...
+
+** Vortrag 7 Erweiterungskareten
+- Grafikkarte
+  + Displayport, HDMI, VGA, DVI)
+- Soundkarte
+- TV-Karte
+- PC-Messkarte
+- Netzteil
+
+** Vortrag 8 Bildgebende Komponenten
+- Pixeldichte PPI
+- LCD liquid crystal display
+- TFT thin-film transistor
+- OLED organic light-emitting diode
+- Plasma (selbstleuchtende Pixel)
+
+
+** Vortrag 10 Betriebssysteme
+- mbr 4 Partitionen max 2TB
+- gpt 128 Partitionen UEFI und 64bit benötigt
+
+
+** Vortrag 13 Virtualisierung + Cloudcomputing
+- SaaS Software as a Service
+- PaaS Platform as a Service
+- IaaS Infrastructure as a Service
+
+** Vortrag 14
+-

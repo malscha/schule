@@ -1,0 +1,45 @@
+#+title: 22 12 01
+
+* Modell Wirtschaftskreislauf
+
+** Staat
++ Infrastruktur / Subventionen
+- Steuern / Dienstleistungen / Güter
+** Unternehmen
++ Zinsen / Spielgeld
+- Zinsen / Kapital / Kredite
+** Banken
++ Zinsen / Kapital / Kredite
+- Zinsen / Spielgeld
+** Haushalte
++ Steuern
+- Infrastruktur / Sozialhilfe / Sicherheit
+
++ (Unternehmen) Arbeitskraft, Geld für Konsumgüter
+- (Unternehmen) Lohn, Konsumgüter
+
+
+** Unternehmen
++ Güter / Kapital / Arbeitskraft
+- Güter / Kapital / Arbeitskraft
+** Ausland
+
+
+* Arbeitsaufträge zur volkswirschaftlichen Sicht auf Deutschland
+** Welche Arten von Unternehmen gibt es? Finde je Unternehmesart ein passendes Beispiel.
+- Industriebetriebe : Siemens
+- Handwerksbetriebe : Sanitäranlagen Böing
+- Handelsbetriebe : Aldi
+- Kreditinstitute : Sparkasse Rhein Maas
+- Versicherungsbetriebe: Axa
+- Verkehrsbetriebe : BTG - Feldberg und Sohn
+** In welchen Sektoren können Unternehmen aktiv werden bzw vertreten sein?
+- Primärer Sektor: Urproduktion, Rohstoffgewinn, Land-, Forst-, Bergbau-, Jagd-, Fischerei-Wirtschaft
+- Sekundärer Sektor: Handwerks- und Industriebetriebe
+- Tertiärer Sektor: Handelsbetriebe, Dienstleistungsbetriebe
+** Welche grundlegenden Ziele verfolgen Unternehmen? Finde je Unternehmensart drei wichtige Hauptziele.
+-
+** Überlege dir, welche Ziele dein Ausbildungsbetrieb verfolgt und notiere diese.
+** Im Rahmen eines Zielsystems spricht man auch von Zielkonflikten, die auftreten können. Definiere den Begriff Zielkonflikt und suche ein passendes Beispiel bei den Zielen deines Ausbildungsbetriebs.
+** Betriebe produzieren einen Mehrwert für ihre Kunden. Welche Produnktionsfaktoren werden in diesem Prozess eingesetzt bzw welche Produnktionsfaktoren gibt es?
+** Beschreibe den "Produktionsprozess bzw die Schaffung eines Mehrwerts" innerhald deines Ausbildungsbetriebs.

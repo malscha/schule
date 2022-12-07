@@ -1,0 +1,95 @@
+#+title: Klausur 22 12
+#+tags: klausurvorbereitung
+
+* 12 Kommunikationssperren von Thomas Gordon
+** Die Sperren
+1. befehlen, anleiten und kommandieren
+   "Mach deine Hausaufgaben. Hol mir ein Bier."
+2. warnen, drohen, ermahnen
+   "Wenn du das machst gibt es Probleme."
+3. zureden, moralisieren, predigen
+   "Sie dürfen nicht nur an sich selbst denken. In dieser Firma halten wir zusammen."
+4. beraten, Vorschläge machen, Lösungen geben
+   "mir geht es nicht gut." -"Geh zum Arzt."
+5. Vorhaltungen machen, belehren
+   "ich habe so viel zu tun." - "Ach so schlimm ist das doch überhaupt nicht. Ich habe damals auch alles Hinbekommen."
+6. verurteilen, kritisieren, widersprechen, beschuldigen
+   "mir geht es nicht gut." -"Du verdirbst uns den ganzen Abend."
+7. loben, zustimmen
+   "ich habe keine Zeit dafür." - "Aber sie sind mein Bester Mann für den Job"
+8. beschimpfen, lächerlich machen, beschämen
+   "mir geht es nicht gut." - "Stell dich nicht so an"
+9. interpretieren, analysieren, diagnostizieren
+   "Anja hat keine Zeit mehr für mich" - "Du bist doch nur Neidisch weil sie einen Freund hat."
+10. beruhigen, bemitleiden, trösten
+    "Ich bin so traurig, mein Hund ist tot." - "Na komm, er war doch schon so alt. Wie wäre es wenn wir morgen einen neuen Hund kaufen?"
+11. forschen, fragen, verhören
+    "Es ist schwer Arbeit und Kinder unter einen Hut zu bringen." - "Warum Arbeitest du überhaupt so schnell schon wieder?"
+12. zurückziehen, ablenken, ausweichen
+    "Wir müssen reden." - " Ich muss erstmal was Essen, wir können da ein anderes Mal drüber reden.
+** Bedeutung
+- diese Gesprächselemente bergen das Risiko sich negativ auf ein Gespräch auszuwirken, besonders wenn das Gespräch unter Stress stattfindet.
+- können den Gesprächspartner in Defensive treiben, oder zum schweigen veranlassen.
+* Körperliche Signale deuten
+
+* 5 Axiome von Paul Watzlawick
+1. Man kann nicht nicht kommunizieren
+   sobald sich Menschen gegenseitig wahrnehmen, kommunizieren sie.
+2. Jede Kommunikation hat einen Inhalts und einen Beziehungsaspekt
+   a) Inhalt:
+      was wird Inhaltlich mitgeteilt
+   b) Beziehung:
+      Wie soll die Nachricht verstanden werden? Ausdruck durch Gestik Mimik Tonfall und auch das Verhältnis der Gesprächspartner
+
+   Kommunikation funktioniert nur dann erfolgreich wenn Inhalt und Beziehung getrennt gesehen und die Beziehungsebene so aufgenommen wird, wie sie vom Sender angedacht war.
+3. Kommunikation ist Ursache und Wirkung
+   Kommunikationspartner reagieren fortlaufend auf einander, Kommunikation ist Kreisförmig
+4. Kommunikation ist analog und digital
+   a) digital: verbal
+      sachlich objektive Wörter und Sätze, die sich auf bestimmte Sachverhalte beziehen. Vermitteln Informationen und lassen keinen Spielraum für Interpretationen
+   b) analog: nonverbal
+      gestik, mimik, beziehungen... hiermit können zB Informationen zwischen den Zeilen vermittelt werdne.
+
+   Im Idealfall sollten sich die beiden Ebenen nicht widersprechen.
+5. Kommunikation ist Symmetrisch und Komplementär
+   a) symmetrisch
+      Gespräch auf Augenhöhe, Gesprächspartner wollen Gleichheit bestehen lassen, oder zu ihr zurückzukehren
+   b) komplementär
+      oft gibt es Über und Untergeordnete Gesprächsteilnehmer
+* 4 Schabel-Ohren-Modell
+Modell nach Friedmann Schulz von Thun.
+- Vier Ebenen auf denen etwas verstanden werden kann.
+- Die Nachricht besteht aus den Vier Teilaspekten
+- Die nachricht kann von Sender und Empfänger unterschiedlich gemeint oder verstanden werden.
+
+
+1. Sachebene: Sachinformationen
+2. Beziehungsebene: Wie stehen die beiden Seiten zu einander?
+3. Selbstkundgabe: Offen oder indirekt sagt der Sprecher etwas über sich aus.
+4. Appellebene: Welche Wirkung wird erwünscht?
+* Eisbergmodell
+** Zusammefassung
+Das Eisbergmodell beschreibt die Ansichten von Sigmund Freud zur Kommunikation.
+Nur ein kleiner Teil der Kommunikation findet komplett bewusst statt. Dies ist im Modell der sichtbare Teil des Eisbergs (20%).
+Der deutlich größere Teil spielt sich im Modell unterhalb der Wasseroberfläche ab. Hier werden alle unbewussten Aspekte der Kommunikation Zusammengefasst (Beziehungsebene 80%).
+
+|-----------------+-----------------------------------+------------------------|
+| Sachebene       | Sachinformationen                 | bewusste Kommunikation |
+|                 |                                   | verbale Botschaft      |
+|                 |                                   | 20%                    |
+|-----------------+-----------------------------------+------------------------|
+| Beziehungsebene | Werte, Gefühle, Wünsche           | unbewusse              |
+|                 | Einstellungen, frühere Erlebnisse | nonverbale Botschaft   |
+|                 | Status, Ängste, Beurteilungen,    | 80%                    |
+|                 | Vorurteile                        |                        |
+|-----------------+-----------------------------------+------------------------|
+
+
+
+* Lernhilfen:
+** 12 Kommunikationssperren:
+1. Ein Versuch einen Satz zu bauen der alle Begriffe beinhaltet
+   + Der Pinguin *befiehlt* mit *drohend* erhobenen Flügel: Eisbärenpriester dürfen nicht mehr *predigen*.
+   + Eisbärenpriester dürfen weiterhin *beraten*, aber auf keinen Fall einen Pinguin *belehren* oder ihr Verhalten *kritisieren*
+   + Sich von einem Eisbären *loben* zu lassen ist für die meisten Pinguine sehr *beschämend* warum das so ist müssen wir noch *analysieren*
+   + Man könnte die Eisbären *bemitleiden* doch *verhört* man die Pinguine deswegen werden sie *ablenken*.
