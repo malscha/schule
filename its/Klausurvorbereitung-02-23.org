@@ -1,0 +1,138 @@
+#+title: Klausurvorbereitung 02 23
+
+* Begriffe
+** CIA Prinzip: confidentiality, integrity availability
++ Vertraulichkeit: Schutz vor unerlaubter / ungewollter offenlegung
++ Integrität: Unversehrtheit, Korrektheit
++ Verfügbarkeit: Daten müssen abfragbar sein.
+** Datenschutz:
++ Datenschutz: Schutz von Personenbezogenen Daten
++ DSGVO: Datenschutz Grundverordnung, eine Europaweite Norm
++ BDSG: Bundesdatenschutzgesetz, Deutsche Umsetzung der DSGVO
+** Datensicherheit:
++ Datensicherheit: Schutzmaßnahmen für alle Daten
++ TOM: Technisch organisatorische Masßnahmen
++ AAA Verfahren: Authenticate, Authorize, Accounting
+** Backups:
++ Archiv-Bit: wenn Daten in einem Sektor geändert werden wird das Archiv Bit gesetzt. Hierdurch weiß die Backupsoftware welche Teile bearbeitet werden müssen
+* Datenschutz / Datensicherheit
+** Rechte nach DSGVO
+- verarbeitung von Personenbezogenen Daten ist verboten, wenn sie nicht durch eine entsprechende gesetzliche Bestimmung erlaubt sind
+- Richtigkeit: Richtigkeit der Daten muss gewährleistet sein, Aktualisierungsanspruch bei Fehlern
+- Zweckbindung: Zwecke der Datenverarbeitung muss bei Erhebung der Daten festgelegt, eindeutig und legitim sein.
+- Transparenz: Verantwortlich Stelle muss Auskunft darüber welche Daten durch wen und zu welchem Zweck erhoben wurden
+- Datenminimierung: dem Zweck angemessen und aufs Notwendigste beschränkt
+- Rechtmäßigkeit: Verarbeitung der Daten beruht auf Einwilligung der betroffenen Person
+- Speicherbegrenzung: speichern von Daten unterliegt einer zeitlichen Begrenzung
+- Integrität und Vertraulichkeit: Schutz Personenbezogener Daten vor unerlaubtem Zugriff und Vertraulichkeit muss gewährleistet werden. Durch:
+  + technische Maßnahmen
+  + organisatorische Maßnahmen
+  + datenschutzfreundliche Voreinstellungen
+  + Zertifizierungsverfahren
+  + Datenschutzsiegel
+
+
+** Maßnahmen zum Datenschutz (TOM)
++ Privacy by Design: Beim erstellen des Prozesses soll Privatsphäre bedacht werden
++ Privacy by Default: Standardeinstellungen geben best möglichen Schutz der Privatsphäre
++ Zutrittskontrolle: Physischen zugriff zu Datenverarbeitungsanlagen
+  - Festlegen von Sicherheitsbereichen
+  - Festlegen von befugten Personen
+  - Festlegen von Besucherregeleungen
+  - Gebäudesicherung
+  - Anwesenheitsaufzeichnung
++ Zugangskontrolle: Nutzung der Anlagen
+  - Sicheres Nutzername/Passwort System
+  - schnelles reagieren auf öffentlich gewordene Passwörter
++ Zugriffskontrolle: Zugriff nur auf Daten die zur erfüllung ihrer Aufgaben nötig sind
+  - granulare Zugangskontrolle
+  - Anmerkung: der Versuch sich zusätzliche Rechte zu verschaffen ist eine Straftat
++ Weitergabekontrolle: Daten sollen auf dem Transportweg nicht abgefangen werden können
+  - sichere Kommunikeationswege verwenden
+  - Daten/Datenträger verschlüsseln
++ Eingabekontrolle: Nachvollziehbarkeit wer wann welche Daten geändert hat
+  - Aufzeichnen von Log Dateien
++ Auftragskontrolle: Daten dürfen nur gemäß den Anforderungen des Auftraggebers verarbeitet werden
+  - Verarbeitung wird Vertraglich festgelegt
++ Verfügbarkeitskontrolle: Daten vor Zerstörung oder Verlust schützen
+  - erstellen von Backups
+  - Redundanzen
+  - Backups regelmäßig testen
++ Trennungsgebot: zu unterschiedlichen Zwecken erhobene Daten sollen getrennt verarbeitet werden
+  - Verarbeitung von Verbunddaten muss innerbetrieblich definiert und gestgeschrieben
+* Datenbackups
+** ḱommt 100% vor: Backups müssen regelmäßig geteste werden
+** Die verschiedenen Backuparten
+- volles Backup: bei jedem Backup wird eine Kopie der gesamten Daten angelegt
+- differentielles Backup: es werden nur die Daten gesichert, die seit dem letzten vollständigen Backup verändert wurden.
+- inkrementelles Backup: es werden die Daten gesichert, die seit dem letzten Backup geändert wurden, auch wenn es sich dabei nicht um ein vollständiges Backup handelt.
+** 3-2-1 Regel
+- 3 copies of the data, on 2 different types of media, at least one copy off site
+** Großvater, Vater, Sohn Prinzip:
+- die aktuellsten Backups sind am feinkörnigsten abgelegt
+- auch alte Backups werden behalten ohne unnötig viel Hardwarespeicher zu benötigen
+- grobes Beispiel 5Tage, 4Wochen, 12Monate:
+  + Montag - Donnerstag werden Sicherungen auf den 4 "Sohn Festplatten" abgelegt
+  + Freitags wird das Backup auf eine der 3 "Vater Festplatten" abgelegt
+  + in der dächsten Woche werden die "Sohn Festplatten" überschrieben, Freitags wird die nächste "Vater Platte" verwendet
+  + am 4. Freitag wird das Backup auf einer der "Großvater Festplatten" abgelegt
+  + ...
+** RAID redundant array of independent disks
+- RAID0 striping: Daten werden auf mehrere Datenträger aufgeteilt
+  + hohe lese und Schreibgeschwindigkeit
+  + hohe Fehleranfälligkeit, ausfall einer Platte -> Verlust aller Daten
+  + min 2 Datenträger
+- RAID1 mirroring: komplette Festplatte wird gespiegelt
+  + höhere lesegeschwindigkeit
+  + kein Datenverlust bei Ausfall einer Platte
+  + min 2 Datenträger
+- RAID 5 bit-level striping with didicated Hamming-code parity
+  + höhere Geschwindigkeit beim lesen und schreiben
+  + so ausgelegt das ein Datenträger ausfallen kann, ohne dass daten verloren werden
+  + min 3 Datenträger
+- RAID 6
+  + konzept wie RAID5, doch auch bei 2 defekten Datenträgern werden keine Daten verloren
+  + min 4 Datenträger
+- RAID10
+  + kombination aus RAID1 und RAID0
+    + kombiniert geschwindigkeit von RAID0 mit Sicherheit von RAID1
+    + benötigt viele Datenträger, min 4
+* TODO USV Unterbrechungsfreie Stromversorgung
+- VFI Voltage and Frequency Independent-
+  - ~ 10% Leistungsverlust
+  - Batterielebensdauer verkürzt
+  - Immun gegen jede art von Schwankungen im Stromnetz
+- VI Voltage Independent
+- VFD Voltage Frequency Dependent
+
+* Cybersicherheitsbedrohungen, Sicherheitslücken und Angriffe
+** Malware
+- Viren: Schadcode der zu einer zulässigen Datei/ einem Programm hinzugefügt wird
+- Würmer: vermehren und verbreiten sich selbst über Sicherheitslücken im Netzwerk, nach Infektion selbstsändig
+- Trojaner: schädliche Funktion wird durch gewünsche Funktion getarnt, Benutzer erteilt Berechtigungen
+- logische Bomben: Malware die auf Trigger wartet, bsp: Datum, andere ausgeführte Programme, Zugriff auf Datenbank...
+- Ransomware: macht Computer / Daten unzugänglich, Opfer wird erpresst um Zugang zu erhalten, Infektion durch Trojaner/Virus
+- Backdoors: nach Zugriff durch Angreifer erstellt dieser eine Backdoor um zukünftig leicht wieder auf das System zugreifen zu können
+- Rootkits: Veränderungen am Betriebssystem die Backdoors erzeugen, sehr schwer zu entfernen
+** Spam
+Merkmale:
+- Anschein eines seriösen Anbieters
+- keine Betreffzeile
+- verlangt änderungen am Konto
+- Rechtschreibfehler, Zeichenfehler
+- ungewöhnliche links
+- bitten den Anhang zu öffnen
+** Andere Gefahren:
+- Spyware: sammelt Informationen vom System, verändert Sicherheitseinstellungen, Bsp: Keylogger, Aktivitätstracker
+- Adware: zeigt Werbung, Popups um Add traffic für Angreifer zu generieren, oft kombiniert mit Spyware
+- Scareware: soll Benutzer durch gefälschte Dialog/System Fenster verängstigen und zu einer Aktion bewegen, Bsp: Betrug, Malware Installation
+- Phishing: Seite gibt sich als seriöse Website aus, klaut Anmelde- oder persönliche Daten
+- Spearfishing: Phishing Angriff der durch bekannte Informationen über das Opfer angepasst wird um Erfolgswahrscheinlichkeit zu erhöhen
+
+** Verteidigung gegen Malware
+- Antivirus Programm: gleicht Software mit Signaturen in Datenbank mit bekannter Malware ab
+- Aktuelle Software: Sicherheitslücken durch Updates an Betriebssystem und Anwendersoftware beheben
+* Wahrscheinliche Aufgaben:
+** Sachverhalt in dem Daten verloren / beschädigt werden. Beschreibe mit welchen Maßnahmen dies verhindert werden könnte.
+** Berechne wie lange die angegebene USV Anlage mit bekannter Effiziens und Kapazität einen bestimmten Verbraucher versorgen kann.
+** Berechnung wie lange ein Backup mit bekannter Verbindungsgeschwindigkeit dauert. Bestimmen ob kapazität von vorhandenen Festplatten mit bestimmter RAID konfiguration für das Backup ausreichen.
